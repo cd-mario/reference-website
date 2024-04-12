@@ -11,7 +11,7 @@ body {
 
 /* END header style */
 
-header {
+header, main{
     margin: 4em auto;
     width: 900px;
 }
@@ -60,3 +60,28 @@ header small {
 }
 
 /* END header style */
+
+/* START main style */
+
+.quote-container {
+    background-color: rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    border-radius: 6px;
+    width: 100%;
+    height: fit-content;
+
+}
+.quote-container h2 {
+    font-size: 5.5em;
+    font-weight: 700;
+}
+
+.quote-container .author {
+    font-size: 4.5em;
+    margin-top: 30px;
+    font-weight: 600;
+}
+.quote-container .book {
+    font-size: 4.5em;
+    font-weight: 500;
+}
