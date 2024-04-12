@@ -22,7 +22,9 @@ header h6, h1 {
     font-weight: 400;
 }
 header h6 {
+    font-size: 1.5rem;
     margin-bottom: 50px;
+    font-weight: 300;
 }
 header .name {
     font-weight: 600;
@@ -32,7 +34,10 @@ hr {
     color: grey;
 }
 p {
-    font-weight: 300;
+    margin-bottom: 20px;
+    font-weight: 350;
+    font-size: 1.2em;
+    line-height: 26px;
 }
 h1 {
     font-size: 4.5rem;
@@ -69,6 +74,7 @@ header small {
     border-radius: 6px;
     width: 100%;
     height: fit-content;
+    margin-bottom: 25px;
 
 }
 .quote-container h2 {
@@ -85,3 +91,11 @@ header small {
     font-size: 4.5em;
     font-weight: 500;
 }
+
+.html {
+    margin-top: 30px;
+}
+.html h2 {
+    font-size: 3em;
+}
+
