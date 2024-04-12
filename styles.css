@@ -8,39 +8,40 @@ body {
     color: #ecf2f8;
     font-family: 'Roboto', Helvetica;
 }
+p {
+    margin-bottom: 20px;
+    font-weight: 300;
+    font-size: 1.1em;
+    line-height: 26px;
+}
+hr {
+    height: 1px; 
+    border: none;
+    background-color: lightgray;
+    opacity: 30%; 
+}
 
-/* END header style */
-
+/* START header style */
 header, main{
     margin: 4em auto;
-    width: 900px;
+    width: 800px;
 }
 header h6, h1 {
     margin-bottom: 15px;
     word-spacing: 1px;
-    font-size: 1.25rem;
     font-weight: 400;
 }
 header h6 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-bottom: 50px;
-    font-weight: 300;
+    font-weight: 400;
 }
 header .name {
     font-weight: 600;
     line-height: 20px;
 }
-hr {
-    color: grey;
-}
-p {
-    margin-bottom: 20px;
-    font-weight: 350;
-    font-size: 1.2em;
-    line-height: 26px;
-}
-h1 {
-    font-size: 4.5rem;
+header h1 {
+    font-size: 3rem;
     font-weight: 600;
 }
 #profile {
@@ -57,12 +58,6 @@ h1 {
 header small {
     margin: 4px 0 0 15px;
 }
- hr {
-    height: 1px; 
-    border: none;
-    background-color: lightgray;
-    opacity: 30%; 
-}
 
 /* END header style */
 
@@ -78,7 +73,7 @@ header small {
 
 }
 .quote-container h2 {
-    font-size: 5.5em;
+    font-size: 5.4em;
     font-weight: 700;
 }
 
@@ -96,11 +91,13 @@ header small {
     margin-top: 30px;
 }
 .html h2 {
-    font-size: 3em;
+    font-size: 2em;
 }
 
 .html h6 {
-    font-size: 1.4rem;
+    padding: 5px;
+    background-color: rgba(0, 0, 0, 0.2);
+    font-size: 1rem;
     margin-bottom: 40px;
     font-weight: 400;
 }
