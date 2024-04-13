@@ -92,6 +92,7 @@ header small {
 }
 .html h2 {
     font-size: 2em;
+    margin-bottom: 10px;
 }
 
 .html h6 {
@@ -101,12 +102,36 @@ header small {
     margin-bottom: 40px;
     font-weight: 400;
 }
+.html .link-list {
+    background-color: rgba(0, 0, 0, 0.1);
+    border: 1px solid  rgba(253, 249, 249, 0.2);
+    padding: 10px 10px 10px 35px;
+    border-radius: 6px;
+    margin-left: 5px;
+}
+.html .link-list li a {
+    font-weight: 600;
+    color: #7dbbe6;
+    text-decoration: none;
+}
+.html .link-list li a:hover {
+    text-decoration: underline;
+}
+.html .link-list li p {
+    margin-bottom: 5px;
+}
+.html .link-list li::marker {
+    font-size: 2em;
+}
+.html .link-list li {
+    list-style: square;
+}
 
 .bold {
     font-weight: bold;
 }
 .css {
-    margin-top: 30px;
+    margin-top: 20px;
 }
 .css h2 {
     font-size: 2em;
