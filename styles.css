@@ -103,28 +103,27 @@ header small {
     margin-bottom: 40px;
     font-weight: 400;
 }
-.html .link-list {
+.html .link-list, .css .link-list {
     background-color: rgba(0, 0, 0, 0.1);
     border: 1px solid  rgba(253, 249, 249, 0.2);
     padding: 10px 10px 10px 35px;
     border-radius: 6px;
     margin-left: 5px;
 }
-.html .link-list li a {
-    font-weight: 600;
+ li a {
+    font-weight: 500;
     color: #7dbbe6;
     text-decoration: none;
-}
-.html .link-list li a:hover {
+} li a:hover {
     text-decoration: underline;
 }
-.html .link-list li p {
+ li p {
     margin-bottom: 5px;
 }
-.html .link-list li::marker {
+ li::marker {
     font-size: 2em;
 }
-.html .link-list li {
+ li {
     list-style: square;
 }
 
