@@ -105,4 +105,10 @@ header small {
 .bold {
     font-weight: bold;
 }
+.css {
+    margin-top: 30px;
+}
+.css h2 {
+    font-size: 2em;
+}
 
