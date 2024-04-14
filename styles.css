@@ -90,7 +90,7 @@ header small {
 .html {
     margin-top: 30px;
 }
-.html h2, .css h2 {
+.html h2, .css h2, .javascript h2 {
     font-size: 1.8em;
     margin-bottom: 10px;
     font-weight: 500;
@@ -103,7 +103,7 @@ header small {
     margin-bottom: 40px;
     font-weight: 400;
 }
-.html .link-list, .css .link-list {
+.html .link-list, .css .link-list, .javascript .link-list  {
     background-color: rgba(0, 0, 0, 0.1);
     border: 1px solid  rgba(253, 249, 249, 0.2);
     padding: 10px 10px 10px 35px;
@@ -130,7 +130,7 @@ header small {
 .bold {
     font-weight: bold;
 }
-.css {
+.css, .javascript {
     margin-top: 20px;
 }
 
