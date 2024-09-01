@@ -9,9 +9,9 @@ body {
     font-family: 'Roboto', Helvetica;
 }
 p {
-    margin-bottom: 20px;
+    margin-bottom: 1.3rem;
     font-weight: 300;
-    font-size: 1.1em;
+    font-size: 1.2rem;
     line-height: 26px;
 }
 hr {
@@ -24,21 +24,20 @@ hr {
 /* START header style */
 header, main{
     margin: 4em auto;
-    width: 800px;
+    width: 60%;
 }
 header h6, h1 {
-    margin-bottom: 15px;
+    margin-bottom: 1rem;
     word-spacing: 1px;
     font-weight: 400;
 }
 header h6 {
     font-size: 1.2rem;
-    margin-bottom: 50px;
-    font-weight: 400;
+    margin-bottom: 3rem;
 }
 header .name {
     font-weight: 600;
-    line-height: 20px;
+    line-height: 1.3rem;
 }
 header h1 {
     font-size: 3rem;
@@ -46,12 +45,12 @@ header h1 {
 }
 #profile {
     border-radius: 50%;
-    width: 50px;
-    height: 50px;
+    width: 3rem;
+    height: 3rem;
     border: 1px solid #ecf2f8;
 }
 .profile-container {
-    margin-top: 30px;
+    margin-top: 2rem;
     display: flex;
     flex-direction: row;
 }
@@ -65,11 +64,11 @@ header small {
 
 .quote-container {
     background-color: rgba(0, 0, 0, 0.3);
-    padding: 40px;
-    border-radius: 6px;
+    padding: 3.2rem;
+    border-radius: 0.4rem;
     width: 100%;
     height: fit-content;
-    margin-bottom: 25px;
+    margin-bottom: 1.5rem;
 
 }
 .quote-container h2 {
@@ -79,7 +78,7 @@ header small {
 
 .quote-container .author {
     font-size: 4.5em;
-    margin-top: 30px;
+    margin-top: 1.8rem;
     font-weight: 600;
 }
 .quote-container .book {
@@ -88,15 +87,14 @@ header small {
 }
 
 .html {
-    margin-top: 30px;
+    margin-top: 2rem;
 }
-.html h2, .css h2, .javascript h2 {
+.technology {
     font-size: 1.8em;
-    margin-bottom: 10px;
+    margin-bottom: 0.6rem;
     font-weight: 500;
 }
-
-.html h6 {
+.note {
     padding: 5px;
     background-color: rgba(0, 0, 0, 0.2);
     font-size: 1rem;
@@ -118,7 +116,7 @@ header small {
     text-decoration: underline;
 }
  li p {
-    margin-bottom: 5px;
+    margin-bottom: 0.3rem;
 }
  li::marker {
     font-size: 2em;
@@ -131,6 +129,6 @@ header small {
     font-weight: bold;
 }
 .css, .javascript {
-    margin-top: 20px;
+    margin-top: 1.3rem;
 }
 
