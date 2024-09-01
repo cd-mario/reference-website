@@ -103,7 +103,7 @@ header small {
     margin-bottom: 40px;
     font-weight: 400;
 }
-.html .link-list, .css .link-list, .javascript .link-list  {
+.link-list  {
     background-color: rgba(0, 0, 0, 0.1);
     border: 1px solid  rgba(253, 249, 249, 0.2);
     padding: 10px 10px 10px 35px;
